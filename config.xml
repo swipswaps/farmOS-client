@@ -7,7 +7,7 @@
     <author email="mike@farmier.com" href="http://www.farmOS.org">
 				farmOS Team
 		</author>
-    <preference name="phonegap-version" value="cli-9.9.0" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
