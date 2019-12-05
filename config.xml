@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.farmos.app" version="0.4.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.farmos.app" version="0.4.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>farmOS</name>
     <description>
 				A native front-end app for farmOS.
@@ -26,6 +26,10 @@
     <config-file mode="replace" parent="NSPhotoLibraryUsageDescription" platform="ios">
         <key>NSPhotoLibraryUsageDescription</key>
         <string>farmOS would like access to the photo library</string>
+    </config-file>
+    <config-file mode="replace" parent="NSLocationAlwaysUsageDescription" platform="ios">
+        <key>NSLocationAlwaysUsageDescription</key>
+        <string>farmOS would like access your GPS location</string>
     </config-file>
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-camera" spec="&lt;=2.4.1">
